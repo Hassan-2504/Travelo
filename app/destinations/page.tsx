@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 export default function Destinations() {
   const destinations = [
@@ -84,7 +85,7 @@ export default function Destinations() {
           </h1>
           
           <p className="text-xl md:text-2xl mb-12 text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Explore the world's most beautiful places with our curated travel experiences
+            Explore the world&apos;s most beautiful places with our curated travel experiences
           </p>
           
           {/* Simple Search Bar */}
@@ -161,10 +162,11 @@ export default function Destinations() {
               >
                 {/* Image Container */}
                 <div className="relative h-64 overflow-hidden">
-                  <img
+                  <Image
                     src={destination.image}
                     alt={destination.name}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300"
                   />
                   
                   {/* Category Badge */}

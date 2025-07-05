@@ -41,7 +41,7 @@ const Hero = () => {
         });
 
         // Create a curved flight path using bezier
-        const tl = gsap.timeline({
+        gsap.timeline({
           scrollTrigger: {
             trigger: hero,
             start: 'top bottom',

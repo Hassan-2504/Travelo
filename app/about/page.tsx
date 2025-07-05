@@ -32,10 +32,10 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="slide-in-right">
               <p className="text-lg text-gray-600 leading-relaxed mb-6 fade-in-up delay-500">
-                Founded with a passion for adventure and a love for exploration, we've been crafting extraordinary travel experiences for over a decade. Our journey began with a simple belief: that travel has the power to transform lives, broaden perspectives, and create lasting memories.
+                Founded with a passion for adventure and a love for exploration, we&apos;ve been crafting extraordinary travel experiences for over a decade. Our journey began with a simple belief: that travel has the power to transform lives, broaden perspectives, and create lasting memories.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed fade-in-up delay-700">
-                From humble beginnings as a small group of travel enthusiasts, we've grown into a trusted partner for thousands of adventurers worldwide, always staying true to our core mission of making travel accessible, sustainable, and unforgettable.
+                From humble beginnings as a small group of travel enthusiasts, we&apos;ve grown into a trusted partner for thousands of adventurers worldwide, always staying true to our core mission of making travel accessible, sustainable, and unforgettable.
               </p>
             </div>
             <div className="slide-in-left delay-300">
@@ -97,7 +97,7 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4 slide-up">Sustainability</h3>
               <p className="text-gray-600 leading-relaxed fade-in">
-                We're committed to responsible travel that preserves the beauty of our planet for future generations to enjoy.
+                We&apos;re committed to responsible travel that preserves the beauty of our planet for future generations to enjoy.
               </p>
             </div>
             
@@ -140,7 +140,7 @@ export default function About() {
                 <h3 className="text-2xl font-bold text-gray-800 mb-2 typing-effect">Sarah Johnson</h3>
                 <p className="text-indigo-600 font-semibold mb-4">Founder & CEO</p>
                 <p className="text-gray-600 text-sm">
-                  With 15 years in the travel industry, Sarah's vision drives our commitment to extraordinary experiences.
+                  With 15 years in the travel industry, Sarah&apos;s vision drives our commitment to extraordinary experiences.
                 </p>
               </div>
             </div>
