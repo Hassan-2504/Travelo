@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Travelo",
   description: "Plan unforgettable journeys and explore amazing destinations worldwide with our expert travel guidance",
   icons: {
-    icon: '/logo.svg',
+    icon: '/favicon.svg',
   },
 };
 
