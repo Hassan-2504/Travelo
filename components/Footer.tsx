@@ -1,14 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
-
 const Footer = () => {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   const footerLinks = [
     { name: "About Us", href: "/about" },
     { name: "Destinations", href: "/destinations" },
