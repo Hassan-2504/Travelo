@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const Footer = () => {
   const [mounted, setMounted] = useState(false);
